@@ -71,7 +71,7 @@ function contact_site_form($form, &$form_state) {
   );
   $form['mail'] = array(
     '#type' => 'textfield',
-    '#title' => t('E-mail за обратна връзка'),
+    '#title' => t('E-mail за обратна връзка.'),
     '#maxlength' => 255,
     '#default_value' => $user->uid ? $user->mail : '',
     '#required' => TRUE,
