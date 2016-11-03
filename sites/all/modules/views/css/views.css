@@ -1,0 +1,100 @@
+.views-exposed-form .views-exposed-widget {
+  float: left; /* LTR */
+  padding: .5em 1em 0 0; /* LTR */
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 1.6em;
+}
+
+.views-exposed-form .form-item,
+.views-exposed-form .form-submit {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.views-exposed-form label {
+  font-weight: bold;
+}
+
+.views-exposed-widgets {
+  margin-bottom: .5em;
+}
+
+/* table style column align */
+.views-align-left {
+  text-align: left;
+}
+.views-align-right {
+  text-align: right;
+}
+.views-align-center {
+  text-align: center;
+}
+
+/* Remove the border on tbody that system puts in */
+.views-view-grid tbody {
+  border-top: none;
+}
+
+.view .progress-disabled {
+  float: none;
+}
+.node-teaser{border-style: double;
+  border-radius: 7px;
+  border: 2px double #ccc;
+  width:auto;
+  max-width: 500px;
+}
+.field-name-field-description-cars a {
+  color: black
+}
+ .content .view-mode-mobile_view{
+  border-style: double;
+  border-radius: 7px;
+  border: 2px double #ccc;
+  width:auto;
+  max-width: 300px;
+}
+ .view-mode-mobile_view .field-name-field-brand .lineage-item  {
+    font-size:20px;
+    color: #00a99d;
+
+  }
+   .field-name-field-brand .lineage-item  {
+     font-size:23px;
+     color: #00a99d;
+   }
+.view-mode-mobile_view  .field-name-field-price-cars  {
+    border-style: double;
+    border-radius: 7px;
+    border: 2px double #ccc;
+    max-width:90px;
+    font-size:20px;
+    color: #00a99d;
+    text-align: center;
+  }
+.view-mode-mobile_view  .field-name-field-negotiable-price{
+border-style: double;
+border-radius: 7px;
+border: 2px double #ccc;
+max-width:130px;
+font-size:16px;
+color: #00a99d;
+text-align: center;
+}
+.views-responsive-grid-horizontal  .field-name-field-negotiable-price{
+max-width:200px;
+font-size:20px;
+color: #00a99d;
+text-align: center;
+}
+.views-responsive-grid-horizontal  .field-name-field-price-cars{
+max-width:200px;
+font-size:20px;
+color: #00a99d;
+text-align: center;
+}
+.description .item-list .first {
+  visibility:hidden;
+}
